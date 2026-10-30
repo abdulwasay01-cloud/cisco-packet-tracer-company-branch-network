@@ -260,7 +260,7 @@ A trunk port is configured to carry traffic from all three VLANs to the router.
 enable
 configure terminal
 
-<<<<<<< HEAD
+
 ! Configure Access Ports for VLANs
 interface range fastEthernet 0/1 - 3
 =======
@@ -298,7 +298,6 @@ exit
 ! Configure Trunk Port to Router
 interface fastEthernet 0/4
  switchport mode trunk
-<<<<<<< HEAD
 end
 =======
  no shutdown
