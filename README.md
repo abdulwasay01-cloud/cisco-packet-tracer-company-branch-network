@@ -67,7 +67,7 @@ enable
 configure terminal
 
 ! Configure Access Ports for VLANs
-interface range fastEthernet 0/2 - 4
+interface range fastEthernet 0/1 - 3
  switchport mode access
  switchport access vlan 10
 
